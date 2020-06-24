@@ -1,0 +1,1 @@
+java -XX:MetaspaceSize=50M -XX:MaxMetaspaceSize=50M -Xss512k -Xmx50m -Xms50m -XX:MaxDirectMemorySize=50m -XX:NativeMemoryTracking=detail -XX:+PrintGCDetails -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/zhuwenping/xxl.dump  -jar ../target/xh-sample-springboot.jar
